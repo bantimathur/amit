@@ -1,0 +1,276 @@
+@media only screen (min-width: 1100px) {
+}
+
+
+/* Tablet (Portrait) */
+/* Width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+/* Main Wrapper */
+#main_wrapper {
+width:100%;
+margin:0 auto;
+}
+
+/* Top Section */
+.header_wrapper {
+height:120px;
+}
+ header, .page {
+width:728px;
+margin:0 auto;
+display:block;
+}
+
+.page {
+    padding-top: 180px;
+}
+
+
+ .header_wrapper {
+ height: 150px;
+}
+
+.logo {
+	float:none;
+	text-align:center;
+}
+#myslidemenu {
+	float:none;
+	padding-top:15px;
+}
+#myslidemenu ul{
+text-align:center!important;
+}
+
+/* Slider */
+.wedding_invitation {
+ left:100px;
+ top:175px;
+}
+
+/* Gallery */
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+bottom:200px;
+}
+
+
+
+}
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 767px) {
+/* Main Wrapper */
+#main_wrapper {
+width:100%;
+margin:0 auto;
+}
+
+/* Top Section */
+header, .page {
+width:282px;
+margin:0 auto;
+display:block;
+}
+
+.header_wrapper {
+height:120px;
+}
+ .logo {
+float:none;
+padding-top:8px;
+text-align:center;
+}
+ #nav li {
+display:none;
+}
+ #nav {
+display:block;
+float:none;
+width:100%;
+text-align:center;
+padding:1px 0px 1px 0px;
+border-radius:0px;
+}
+#nav select {
+display:block;
+margin:0px auto;
+margin-top:13px;
+width:70%;
+padding:5px 10px;
+}
+
+#nav select option {
+ padding-left:10px;
+}
+.jqueryslidemenu {
+padding-top:0px!important;
+	width:100%;
+
+}
+/* Page */
+.page {
+padding-top:140px;
+}
+ .page h2 {
+line-height:25px;
+font-size:20px !important;
+}
+
+
+/* Home */
+#home {
+padding-top:116px;
+}
+
+/* Slider */
+.wedding_invitation {
+ height: 210px;
+ left: 30px;
+ top: 121px;
+ width: 210px;
+}
+ .wedding_invitation h1 {
+font-size:20px;
+padding-top:57px;
+padding-bottom:10px;
+}
+ .wedding_invitation h3 {
+ background-image: url("../images/mobile_caption_bg.png");
+ background-position: center top;
+ background-repeat: no-repeat;
+ color: #FFFFFF;
+ font-size: 11px;
+ font-weight: bold;
+ height: 49px;
+ line-height: 24px;
+ margin:0px;
+}
+ .wedding_invitation h4 {
+font-size:12px;
+}
+ .wedding_invitation {
+background-image:none!important;
+}
+ span.decor_up, span.decor_bottom {
+display:none;
+}
+ #about h1, #gallery h1, #venue h1 {
+font-size:25px;
+}
+
+
+/* Gallery */
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+bottom:35px;
+}
+ .bx-pager {
+display:none!important;
+}
+
+
+/* Columns
+----------------------------------------------------------------------------------------------------*/
+.one_half, .one_half_last, .one_third, .one_third_last, .two_third, .two_third_last, .one_fourth, .one_fourth_last, .two_fourth, .two_fourth_last, .three_fourth, .three_fourth_last, .one_fifth, .one_fifth_last, .two_fifth, .two_fifth_last, .three_fifth, .three_fifth_last, .four_fifth, .four_fifth_last, #pricing_table .one_third, #pricing_table .one_fourth {
+width: 100%;
+margin-bottom:30px;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+/* Main Wrapper */
+#main_wrapper {
+width:100%;
+margin:0 auto;
+}
+
+/* Top Section */
+header, .page {
+margin:0 auto;
+width:440px;
+display:block;
+}
+ .header_wrapper {
+height:120px;
+}
+ .logo {
+float:none;
+padding-top:8px;
+text-align:center;
+}
+ #nav li {
+display:none;
+}
+ #nav {
+display:block;
+float:none;
+width:100%;
+text-align:center;
+padding:1px 0px 1px 0px;
+border-radius:0px;
+}
+#nav select {
+display:block;
+margin:0px auto;
+margin-top:10px;
+width:70%;
+padding:5px 10px;
+}
+ #nav select option {
+ padding-left:10px;
+}
+ 
+/* Home */ 
+#home {
+padding-top:116px;
+}
+
+/* Page */
+.page h2 {
+line-height:25px;
+font-size:20px !important;
+}
+ .page {
+padding-top:140px;
+}
+
+
+/* Slider */
+.wedding_invitation {
+ height:280px;
+ left: 30px;
+ top:145px;
+ width:280px;display:none;
+}
+ .wedding_invitation h1 {
+font-size:20px;
+padding-top:0px;
+padding-bottom:5px;
+}
+ .wedding_invitation h3 {
+ background-image: url("../images/mobile_caption_bg.png");
+ background-position: center top;
+ background-repeat: no-repeat;
+ color: #FFFFFF;
+ font-size: 11px;
+ font-weight: bold;
+ height: 49px;
+ line-height: 24px;
+ margin:0px;
+}
+ .wedding_invitation h4 {
+font-size:12px;
+}
+ span.decor_up, span.decor_bottom {
+display:block;
+}
+ span.decor_up {
+padding-top:17px;
+padding-bottom:17px;
+}
+ span.decor_bottom {
+padding-top:5px;
+}
+ #about h1, #gallery h1, #venue h1 {
+font-size:25px;
+}
+
+}
